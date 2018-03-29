@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fabio.professor.aulatres.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCadastroPessoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cadastroPessoa"
+            android:text="Cadastro Pessoa" />
+
+        <Button
+            android:id="@+id/btnCadastroAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cadastroAnimal"
+            android:text="Cadastro Animal" />
+
+        <Button
+            android:id="@+id/btnCadastroFuncionario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cadastroFuncionario"
+            android:text="Cadastro Funcionario" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
